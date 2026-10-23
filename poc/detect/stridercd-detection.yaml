@@ -6,7 +6,7 @@ info:
   severity: info
   tags: panel,cicd
 
-http:
+requests:
   - method: GET
     path:
       - '{{BaseURL}}/'
