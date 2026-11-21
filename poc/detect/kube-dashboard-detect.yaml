@@ -1,9 +1,11 @@
 id: kube-dashboard
+
 info:
   name: Kubernetes Dashboard Detection
   author: notnotnotveg
   severity: informative
-requests:
+
+http:
   - method: GET
     path:
       - "{{BaseURL}}/dashboard/#!/namespace?namespace=default"
