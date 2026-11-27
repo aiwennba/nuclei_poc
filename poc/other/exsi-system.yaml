@@ -8,7 +8,7 @@ info:
     shodan-query: html:"esxUiApp"
   tags: panel,esxi
 
-http:
+requests:
   - method: GET
     path:
       - '{{BaseURL}}/ui/#/login'
